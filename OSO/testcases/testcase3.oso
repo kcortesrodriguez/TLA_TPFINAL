@@ -1,0 +1,15 @@
+RUNOSO
+
+function integer main start
+	integer v1 = 0.
+	&"Ingrese un numero valido"&.
+	:v1:.
+
+	for [iterator = 1 : v1] start
+		&iterator&.
+		&line&.
+	end
+
+end
+
+EXITOSO

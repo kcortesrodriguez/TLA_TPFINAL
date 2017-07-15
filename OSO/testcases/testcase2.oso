@@ -1,0 +1,15 @@
+RUNOSO
+
+function integer main start
+	
+	for [ i = 1 : 10 ] start
+		&i&.
+		integer t = (i % 2).
+		if [ t == 0] start
+			&"Es un numero par"&.
+		end
+	end
+	
+end
+
+EXITOSO

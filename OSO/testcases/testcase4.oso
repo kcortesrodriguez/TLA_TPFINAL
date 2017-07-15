@@ -1,0 +1,21 @@
+RUNOSO
+
+function integer test start
+	&"Llamo a la funcion externa"&.
+	&line&.
+end
+
+function integer main start
+	integer v1 = 0.
+	&"Ingrese un numero valido"&.
+	&line&.
+	:v1:.
+
+	for [iterator = 1 : v1] start
+		&iterator&.
+		&line&.
+		call test.
+	end
+end
+
+EXITOSO

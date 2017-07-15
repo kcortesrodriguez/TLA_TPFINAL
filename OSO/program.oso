@@ -1,0 +1,8 @@
+RUNOSO
+
+function integer main start
+	integer a = 10.
+	&b&.
+end
+
+EXITOSO

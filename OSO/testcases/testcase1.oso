@@ -1,0 +1,38 @@
+RUNOSO
+
+function integer a start
+	const a 0.
+	&"El lenguaje OSO es fabulOSO"&.
+	&line&.
+end
+
+function integer b start
+	integer var1 = 5.
+	string hola = "como andan ".
+	&"Hola "&.
+	&hola&.
+	&var1&.
+	&line&.
+end
+
+function integer main start
+	call a.
+	&"Ingrese un primer numero valido"&.
+	&line&.
+	integer num1 = 0.
+	:num1:. 
+
+	&"Ingrese un segundo numero valido"&.
+	&line&.
+	integer num2 = 0.
+	:num2:.
+
+	if [ num2 > num1 ] start
+		for [it = 1 : num2] start
+			call b.
+		end
+	end 
+
+end
+
+EXITOSO
